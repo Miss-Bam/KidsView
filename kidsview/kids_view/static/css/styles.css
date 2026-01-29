@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f8f9fb;
+}
+
+/* TOP BAR */
+.kidsview-logo {
+
+    width: 110px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.top-bar {
+    background: #ffeb3b;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0 0 20px 20px;
+}
+
+.logo {
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #4f46e5;
+}
+
+.logo-icon {
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parents-btn {
+    background: #ff5fa2;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* CATEGORIES */
+.categories {
+    display: flex;
+    gap: 14px;
+    padding: 20px;
+}
+
+.category {
+    width: 90px;
+    height: 110px;
+    border-radius: 18px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    border: none;
+
+}
+
+.category i {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.category_images{
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* COLORS */
+.purple { background: #c084fc; }
+.blue   { background: #93c5fd; }
+.green  { background: #4ade80; }
+.yellow { background: #facc15; color: #333; }
+.pink   { background: #f9a8d4; }
