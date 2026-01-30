@@ -1,12 +1,14 @@
 {}
 * {
     box-sizing: border-box;
-    font-family: 'Baloo 2', cursive;
+    font-family: 'helvetica',sans-serif;
 }
 
 body {
-    margin: 0;
-    background:  #F1E0C5;
+
+    background:  #FFF7E6;
+    max-width: 95%;
+    margin: auto;
 }
 
 .kidsview-logo {
@@ -19,7 +21,7 @@ body {
 }
 
 .top-bar {
-    background: #FFF7E6;
+    background: #f1e0c5;
     padding: 40px 20px;
     display: flex;
     align-items: center;
@@ -51,7 +53,7 @@ body {
     background: #6FC1C0;
     border: none;
     color: white;
-    padding: 10px 16px;
+    padding: 15px 30px;
     border-radius: 20px;
     font-weight: 600;
     cursor: pointer;
@@ -69,7 +71,7 @@ body {
 .category {
     width: 110px;
     height: 130px;
-    border-radius: 18px;
+    border-radius: 20px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -79,11 +81,6 @@ body {
     box-shadow: 0 6px 12px rgba(0,0,0,0.1);
     border: none;
 
-}
-
-.category button:hover {
-  transform: scale(1.1);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
 .category i {
@@ -113,7 +110,7 @@ body {
 }
 
 .channel-row img {
-  width: 150px;
+  width: 140px;
   height: auto;
   border-radius: 10%;
   object-fit: cover;

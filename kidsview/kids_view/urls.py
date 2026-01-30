@@ -4,4 +4,5 @@ from .views import *
 
 urlpatterns = [
     path('', HomeView.as_view(), name='home'),
+    path('parents/', ParentView.as_view(), name='parents-dashboard'),
 ]

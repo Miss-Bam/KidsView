@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Parent Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+</head>
+<body>
+
+<div class="dashboard">
+
+  <div class="dashboard-header">
+    <h1>Parent Dashboard</h1>
+    <button class="close-btn">Close</button>
+  </div>
+
+  <div class="card card-blue">
+    <div class="card-header">
+      <div class="icon blue">🛡️</div>
+      <h2>Content Safety</h2>
+    </div>
+
+    <p>
+      All videos are carefully curated from a parent-approved safe list.
+    </p>
+
+    <button class="primary-btn">
+      Manage Allowed Videos
+    </button>
+  </div>
+
+  <div class="card card-purple">
+    <div class="card-header">
+      <div class="icon purple">⏰</div>
+      <h2>Screen Time</h2>
+    </div>
+
+    <p>Set daily limits for viewing time.</p>
+
+    <div class="row">
+      <span>Daily Limit</span>
+      <strong>45 mins</strong>
+    </div>
+
+    <div class="row">
+      <span>Bedtime</span>
+      <strong>8:00 PM</strong>
+    </div>
+  </div>
+
+  <div class="card card-yellow">
+    <div class="card-header">
+      <div class="icon yellow">⚙️</div>
+      <h2>App Settings</h2>
+    </div>
+
+    <div class="toggle">
+      <span>Sound Effects</span>
+      <label class="switch">
+        <input type="checkbox" checked>
+        <span class="slider"></span>
+      </label>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
