@@ -1,25 +1,26 @@
+{}
 * {
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Baloo 2', cursive;
 }
 
 body {
     margin: 0;
-    background: #f8f9fb;
+    background:  #F1E0C5;
 }
 
-/* TOP BAR */
 .kidsview-logo {
 
-    width: 110px;
+    width: 120px;
     height: auto;
     object-fit: cover;
     border-radius: 50%;
+
 }
 
 .top-bar {
-    background: #ffeb3b;
-    padding: 16px 20px;
+    background: #FFF7E6;
+    padding: 40px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,9 +32,9 @@ body {
     display: flex;
     align-items: center;
     gap: 50px;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
-    color: #4f46e5;
+
 }
 
 .logo-icon {
@@ -47,7 +48,7 @@ body {
 }
 
 .parents-btn {
-    background: #ff5fa2;
+    background: #6FC1C0;
     border: none;
     color: white;
     padding: 10px 16px;
@@ -59,7 +60,6 @@ body {
     gap: 6px;
 }
 
-/* CATEGORIES */
 .categories {
     display: flex;
     gap: 14px;
@@ -67,8 +67,8 @@ body {
 }
 
 .category {
-    width: 90px;
-    height: 110px;
+    width: 110px;
+    height: 130px;
     border-radius: 18px;
     color: white;
     display: flex;
@@ -79,6 +79,11 @@ body {
     box-shadow: 0 6px 12px rgba(0,0,0,0.1);
     border: none;
 
+}
+
+.category button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
 .category i {
@@ -93,9 +98,30 @@ body {
     border-radius: 50%;
 }
 
-/* COLORS */
+
 .purple { background: #c084fc; }
 .blue   { background: #93c5fd; }
 .green  { background: #4ade80; }
 .yellow { background: #facc15; color: #333; }
 .pink   { background: #f9a8d4; }
+
+.channel-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.channel-row img {
+  width: 150px;
+  height: auto;
+  border-radius: 10%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.channel-row img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}

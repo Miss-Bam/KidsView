@@ -1,14 +1,15 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% block title %}Home{% endblock %}
 
 {% block content %}
-  <div>
-      <h1>Welcome</h1>
-  </div>
-
-  <nav>
-      <h2>Navigation bar</h2>
-  </nav>
+    <h2 style="color: dodgerblue;font-size: 20px">Cartoons</h2>
+    {% include 'cartoons.html' %}
+    <h2 style="color: orange;font-size: 20px">Learn</h2>
+    {% include 'learn.html' %}
+    <h2 style="color: hotpink;font-size: 20px">Music</h2>
+    {% include 'music.html' %}
+    <h2 style="color: green;font-size: 20px">Animals</h2>
+    {% include 'animals.html' %}
 
 {% endblock %}
